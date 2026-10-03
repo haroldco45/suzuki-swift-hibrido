@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Suzuki Swift Híbrido | Versiones, videos y cuota</title>
+<meta name="description" content="Suzuki Swift Híbrido GL y GLX: ficha técnica, videos, simulador de cuota y prueba de manejo por WhatsApp. Desde $65.990.000.">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://haroldco45.github.io/suzuki-swift-hibrido/">
+<meta property="og:title" content="Suzuki Swift Híbrido | Desde $65.990.000">
+<meta property="og:description" content="Se recarga solo, gasta menos y trae 6 airbags. Mira las versiones GL y GLX, los videos y calcula tu cuota.">
+<meta property="og:image" content="https://haroldco45.github.io/suzuki-swift-hibrido/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suzuki Swift Híbrido | Desde $65.990.000">
+<meta name="twitter:description" content="Se recarga solo, gasta menos y trae 6 airbags. Mira las versiones GL y GLX, los videos y calcula tu cuota.">
+<meta name="twitter:image" content="https://haroldco45.github.io/suzuki-swift-hibrido/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --rojo:#D7000F; --rojo-osc:#A8000B;
+  --negro:#000; --blanco:#fff;
+  --gris:#5E6168; --humo:#F1F2F4; --linea:#DADCE0;
+  --cond:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+  --txt:'Barlow',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  --navh:64px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font-family:var(--txt);color:var(--negro);background:var(--blanco);line-height:1.5;font-size:17px;padding-bottom:calc(var(--navh) + env(safe-area-inset-bottom,0px))}
+img{max-width:100%;display:block}
+a{color:inherit}
+button,input,select{font:inherit}
+:focus-visible{outline:3px solid var(--rojo);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* Barra superior */
+.top{position:sticky;top:0;z-index:40;background:var(--negro);color:var(--blanco);padding-top:env(safe-area-inset-top,0px)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.marca{font-family:var(--cond);font-weight:800;font-size:24px;letter-spacing:.06em}
+.marca small{font-family:var(--txt);font-weight:500;font-size:14px;letter-spacing:0;color:#bbb;margin-left:10px}
+.top nav{display:none;gap:26px;font-size:15px}
+.top nav a{text-decoration:none;color:#ddd}
+.top nav a:hover{color:#fff}
+.btn-wa{display:inline-flex;align-items:center;gap:8px;background:var(--rojo);color:#fff;border:0;border-radius:2px;padding:9px 14px;font-weight:600;font-size:15px;text-decoration:none;cursor:pointer}
+.btn-wa:hover{background:var(--rojo-osc)}
+
+/* Héroe */
+.hero{position:relative;background:#000;color:#fff;overflow:hidden}
+.hero img{width:100%;height:min(78vh,640px);object-fit:cover;object-position:62% 40%}
+.hero .capa{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.82) 100%)}
+.hero .txt{position:absolute;left:0;right:0;bottom:0;padding-bottom:28px}
+.hero h1{font-family:var(--cond);font-weight:800;font-size:clamp(88px,22vw,220px);line-height:.8;letter-spacing:-.01em;animation:sube .9s cubic-bezier(.2,.7,.2,1) both}
+.hero h1 span{display:block;font-size:.27em;letter-spacing:.02em;font-weight:700;margin-top:10px;color:#fff}
+.hero p{max-width:34ch;margin-top:14px;font-size:18px;color:#e9e9e9}
+@keyframes sube{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.hero h1{animation:none}html{scroll-behavior:auto}}
+
+.precio{background:var(--negro);color:#fff;border-top:4px solid var(--rojo)}
+.precio .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:22px}
+.precio .rango{font-family:var(--cond);font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.05}
+.precio .rango small{display:block;font-family:var(--txt);font-weight:400;font-size:14px;color:#aaa}
+.acciones{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:2px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:16px}
+.btn-rojo{background:var(--rojo);color:#fff}.btn-rojo:hover{background:var(--rojo-osc)}
+.btn-borde{border-color:#fff;color:#fff;background:transparent}.btn-borde:hover{background:#fff;color:#000}
+.btn-negro{background:#000;color:#fff}.btn-negro:hover{background:#333}
+
+/* Datos clave */
+.datos{border-bottom:1px solid var(--linea)}
+.datos .wrap{display:grid;grid-template-columns:repeat(2,1fr)}
+.dato{padding:22px 4px;border-right:1px solid var(--linea)}
+.dato:nth-child(2n){border-right:0;padding-left:18px}
+.dato b{display:block;font-family:var(--cond);font-weight:700;font-size:38px;line-height:1}
+.dato span{font-size:14px;color:var(--gris)}
+@media(min-width:760px){.datos .wrap{grid-template-columns:repeat(4,1fr)}.dato{padding:28px 18px}.dato:nth-child(2n){border-right:1px solid var(--linea)}.dato:last-child{border-right:0}.dato:first-child{padding-left:0}}
+
+/* Secciones */
+section.bloque{padding:64px 0}
+.bloque h2{font-family:var(--cond);font-weight:800;font-size:clamp(38px,7vw,58px);line-height:.95;margin-bottom:12px}
+.bloque .intro{color:var(--gris);max-width:60ch;margin-bottom:30px}
+.humo{background:var(--humo)}
+.negro{background:#000;color:#fff}
+.negro .intro{color:#bdbdbd}
+
+/* Versiones */
+.selector{display:inline-flex;border:2px solid #000;border-radius:2px;margin-bottom:28px}
+.selector button{background:#fff;border:0;padding:12px 28px;font-family:var(--cond);font-weight:700;font-size:22px;cursor:pointer;min-width:110px}
+.selector button[aria-pressed="true"]{background:#000;color:#fff}
+.version{display:grid;gap:30px}
+@media(min-width:860px){.version{grid-template-columns:320px 1fr;align-items:start}}
+.version figure{background:#000}
+.version figure img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 60%}
+.version h3{font-family:var(--cond);font-weight:700;font-size:30px;margin-bottom:4px}
+.version .sub{color:var(--gris);margin-bottom:18px}
+.lista{list-style:none;columns:1;column-gap:32px}
+@media(min-width:600px){.lista{columns:2}}
+.lista li{break-inside:avoid;padding:9px 0 9px 26px;border-bottom:1px solid var(--linea);position:relative}
+.lista li::before{content:"";position:absolute;left:2px;top:17px;width:12px;height:6px;border-left:2px solid var(--rojo);border-bottom:2px solid var(--rojo);transform:rotate(-45deg)}
+.extra{margin-top:26px;padding:18px 20px;border-left:4px solid var(--rojo);background:#fff}
+.extra h4{font-family:var(--cond);font-size:22px;margin-bottom:6px}
+
+/* Híbrido */
+.hib{display:grid;gap:30px;align-items:center}
+@media(min-width:860px){.hib{grid-template-columns:1.1fr 1fr}}
+.ciclo{list-style:none;display:grid;gap:2px}
+.ciclo li{background:#141414;padding:18px 20px}
+.ciclo b{display:block;font-family:var(--cond);font-size:24px;margin-bottom:2px}
+.ciclo span{color:#c9c9c9;font-size:16px}
+
+/* Seguridad */
+.tabla-wrap{overflow-x:auto;border:1px solid var(--linea)}
+table{width:100%;border-collapse:collapse;min-width:480px;font-size:16px}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--linea)}
+thead th{background:#000;color:#fff;font-family:var(--cond);font-size:20px;font-weight:700}
+td.c,th.c{text-align:center;width:80px}
+.si{color:var(--rojo);font-weight:700}
+.no{color:#9a9da3}
+.seg-img{margin-bottom:24px}
+.seg-img img{width:100%;max-height:300px;object-fit:cover}
+
+/* Interior */
+.int-grid{display:grid;gap:14px}
+@media(min-width:860px){.int-grid{grid-template-columns:2fr 1fr}}
+.int-grid img{width:100%;height:100%;object-fit:cover}
+.cifras{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:24px;border-top:2px solid #000}
+.cifras div{padding:16px 10px 0 0}
+.cifras b{font-family:var(--cond);font-size:34px;display:block;line-height:1}
+.cifras span{font-size:14px;color:var(--gris)}
+
+/* Videos */
+.videos{display:grid;gap:22px}
+@media(min-width:760px){.videos{grid-template-columns:1fr 1fr}}
+.vid{background:#000}
+.lite{position:relative;aspect-ratio:16/9;cursor:pointer;background:#111 center/cover no-repeat;border:0;width:100%;display:block}
+.lite::after{content:"";position:absolute;left:50%;top:50%;width:72px;height:50px;margin:-25px 0 0 -36px;background:var(--rojo);border-radius:10px}
+.lite::before{content:"";position:absolute;left:50%;top:50%;margin:-11px 0 0 -6px;border-style:solid;border-width:11px 0 11px 19px;border-color:transparent transparent transparent #fff;z-index:1}
+.lite:hover::after{background:var(--rojo-osc)}
+.vid iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
+.vid .pie{padding:12px 14px 16px;color:#fff}
+.vid .pie b{display:block;font-weight:600}
+.vid .pie span{font-size:14px;color:#aaa}
+
+/* Ficha */
+details{border-bottom:1px solid var(--linea)}
+summary{list-style:none;cursor:pointer;padding:18px 0;font-family:var(--cond);font-weight:700;font-size:24px;display:flex;justify-content:space-between;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:30px;color:var(--rojo);line-height:1}
+details[open] summary::after{content:"–"}
+details .tabla-wrap{margin-bottom:22px}
+
+/* Simulador */
+.sim{display:grid;gap:30px}
+@media(min-width:860px){.sim{grid-template-columns:1fr 1fr}}
+.campo{margin-bottom:22px}
+.campo label{display:flex;justify-content:space-between;font-weight:600;margin-bottom:8px}
+.campo label output{font-family:var(--cond);font-size:22px;color:var(--rojo)}
+input[type=range]{width:100%;accent-color:var(--rojo);height:28px}
+.plazos{display:flex;flex-wrap:wrap;gap:8px}
+.plazos button{border:2px solid #000;background:#fff;padding:8px 14px;border-radius:2px;cursor:pointer;font-weight:600;min-width:58px}
+.plazos button[aria-pressed="true"]{background:#000;color:#fff}
+.tasa{display:flex;align-items:center;gap:10px}
+.tasa input{width:110px;padding:10px;border:2px solid #000;border-radius:2px;font-size:18px}
+.resultado{background:#000;color:#fff;padding:28px;align-self:start}
+.resultado small{color:#aaa;display:block}
+.resultado .cuota{font-family:var(--cond);font-weight:800;font-size:clamp(48px,10vw,72px);line-height:1;margin:6px 0 18px}
+.resultado dl{display:grid;grid-template-columns:1fr auto;gap:8px 16px;font-size:15px;border-top:1px solid #333;padding-top:16px;margin-bottom:22px}
+.resultado dd{text-align:right;font-weight:600}
+.nota{font-size:13px;color:var(--gris);margin-top:10px}
+.resultado .nota{color:#999}
+
+/* Prueba de manejo */
+.form{display:grid;gap:16px;max-width:640px}
+@media(min-width:640px){.form{grid-template-columns:1fr 1fr}.form .ancho{grid-column:1/-1}}
+.form label{display:block;font-weight:600;margin-bottom:6px;font-size:15px}
+.form input,.form select{width:100%;padding:12px;border:2px solid #000;border-radius:2px;background:#fff;min-height:48px}
+.priv{font-size:13px;color:var(--gris);display:flex;gap:10px;align-items:flex-start}
+.priv input{width:20px;min-height:20px;margin-top:2px;accent-color:var(--rojo)}
+.error{color:var(--rojo);font-weight:600;font-size:15px;min-height:1.2em}
+
+/* Pie */
+footer{background:#000;color:#aaa;font-size:13px;padding:36px 0 30px}
+footer p{margin-bottom:10px;max-width:90ch}
+footer .credito{color:#fff;font-weight:600;font-size:14px;border-top:1px solid #333;padding-top:16px;margin-top:18px}
+
+/* Barra inferior tipo app */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#fff;border-top:1px solid var(--linea);padding-bottom:env(safe-area-inset-bottom,0px)}
+.tabbar ul{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);height:var(--navh)}
+.tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;text-decoration:none;font-size:12px;color:var(--gris);gap:3px}
+.tabbar a.activo{color:var(--rojo);font-weight:600}
+.tabbar svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(min-width:900px){.tabbar{display:none}body{padding-bottom:0}.top nav{display:flex}}
+
+.instalar{position:fixed;left:12px;right:12px;bottom:calc(var(--navh) + 12px + env(safe-area-inset-bottom,0px));z-index:60;background:#000;color:#fff;padding:14px 16px;display:none;align-items:center;gap:12px;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+.instalar.ver{display:flex}
+.instalar p{flex:1;font-size:15px}
+.instalar button{background:var(--rojo);color:#fff;border:0;padding:10px 14px;font-weight:600;cursor:pointer}
+.instalar .x{background:transparent;color:#aaa;padding:6px}
+@media(min-width:900px){.instalar{bottom:20px;left:auto;max-width:420px}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="marca">SUZUKI<small>Swift Híbrido</small></div>
+    <nav aria-label="Secciones">
+      <a href="#versiones">Versiones</a><a href="#hibrido">Híbrido</a><a href="#seguridad">Seguridad</a><a href="#videos">Videos</a><a href="#cuota">Cuota</a><a href="#prueba">Prueba de manejo</a>
+    </nav>
+    <a class="btn-wa" id="waTop" href="#" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero">
+    <img src="hero.jpg" alt="Suzuki Swift Híbrido azul visto de frente en una calle empedrada" fetchpriority="high">
+    <div class="capa"></div>
+    <div class="txt"><div class="wrap">
+      <h1>SWIFT<span>Híbrido. Se recarga solo.</span></h1>
+      <p>Gasta menos gasolina, paga menos impuesto y en las ciudades que eximen a los híbridos no tiene pico y placa.</p>
+    </div></div>
+  </div>
+
+  <div class="precio">
+    <div class="wrap">
+      <div class="rango">$65.990.000 a $77.990.000<small>Rango de precios según versión y transmisión</small></div>
+      <div class="acciones">
+        <a class="btn btn-rojo" href="#prueba">Agendar prueba de manejo</a>
+        <a class="btn btn-borde" href="#cuota">Calcular mi cuota</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="datos"><div class="wrap">
+    <div class="dato"><b>80 HP</b><span>Motor 1.2 de 3 cilindros</span></div>
+    <div class="dato"><b>+60 Nm</b><span>De empuje eléctrico al acelerar</span></div>
+    <div class="dato"><b>6</b><span>Airbags en las dos versiones</span></div>
+    <div class="dato"><b>5 años</b><span>Garantía del sistema híbrido</span></div>
+  </div></div>
+
+  <!-- Versiones -->
+  <section class="bloque humo" id="versiones">
+    <div class="wrap">
+      <h2>Elige tu versión</h2>
+      <p class="intro">Las dos traen frenado autónomo de emergencia, control crucero adaptativo y asistente de permanencia en carril. Las dos vienen en caja mecánica de 5 velocidades o automática CVT.</p>
+      <div class="selector" role="group" aria-label="Versión">
+        <button type="button" data-v="GL" aria-pressed="true">GL</button>
+        <button type="button" data-v="GLX" aria-pressed="false">GLX</button>
+      </div>
+      <div class="version">
+        <figure><img src="frente.jpg" alt="Swift Híbrido de frente" loading="lazy"></figure>
+        <div>
+          <h3 id="vNombre">Swift Híbrido GL</h3>
+          <p class="sub" id="vSub"></p>
+          <ul class="lista" id="vLista"></ul>
+          <div class="extra" id="vExtra"></div>
+          <div class="acciones" style="margin-top:24px">
+            <a class="btn btn-negro" id="vWa" href="#" target="_blank" rel="noopener">Preguntar por esta versión</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Híbrido -->
+  <section class="bloque negro" id="hibrido">
+    <div class="wrap">
+      <h2>Híbrido que no se enchufa</h2>
+      <p class="intro">Sistema SHVS (Smart Hybrid Vehicle by Suzuki): un motor eléctrico con batería de iones de litio trabaja junto al motor de gasolina. La batería se carga sola mientras usted maneja.</p>
+      <div class="hib">
+        <img src="hibrido.jpg" alt="Esquema del sistema híbrido: motor, motor eléctrico y batería" loading="lazy">
+        <ul class="ciclo">
+          <li><b>Al arrancar y acelerar</b><span>El motor eléctrico suma hasta 60 Nm de torque y el motor de gasolina hace menos esfuerzo.</span></li>
+          <li><b>Al frenar y desacelerar</b><span>El sistema recupera energía y recarga la batería. No hay cable ni estación de carga.</span></li>
+          <li><b>En el semáforo</b><span>El Stop &amp; Start apaga el motor en las detenciones y lo vuelve a encender al soltar el freno.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seguridad -->
+  <section class="bloque" id="seguridad">
+    <div class="wrap">
+      <h2>Seguridad de carro grande</h2>
+      <p class="intro">Detecta peatones y bicicletas y frena solo si es necesario. Esto es lo que trae cada versión según la ficha técnica.</p>
+      <figure class="seg-img"><img src="airbags.jpg" alt="Ilustración de los airbags del Swift Híbrido" loading="lazy"></figure>
+      <div class="tabla-wrap"><table id="tablaSeg"></table></div>
+      <p class="nota">Las ayudas a la conducción asisten al conductor, no lo reemplazan. El conductor sigue siendo responsable de manejar con atención.</p>
+    </div>
+  </section>
+
+  <!-- Interior -->
+  <section class="bloque humo" id="interior">
+    <div class="wrap">
+      <h2>Por dentro</h2>
+      <p class="intro">Pantalla flotante inclinada hacia el conductor, Android Auto y CarPlay inalámbricos y cámara de reversa en las dos versiones.</p>
+      <div class="int-grid">
+        <img src="tablero.jpg" alt="Tablero y pantalla multimedia del Swift Híbrido" loading="lazy">
+        <img src="cabina.jpg" alt="Asientos delanteros y traseros del Swift Híbrido" loading="lazy">
+      </div>
+      <div class="cifras">
+        <div><b>7" / 9"</b><span>Pantalla GL / GLX</span></div>
+        <div><b>265 L</b><span>Baúl; 589 L con sillas abatidas</span></div>
+        <div><b>9,7 gal</b><span>Tanque de gasolina</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Videos -->
+  <section class="bloque negro" id="videos">
+    <div class="wrap">
+      <h2>Véalo andar</h2>
+      <p class="intro">Pruebas y reseñas hechas en Colombia por medios especializados. Toque un video para reproducirlo.</p>
+      <div class="videos" id="listaVideos"></div>
+    </div>
+  </section>
+
+  <!-- Ficha -->
+  <section class="bloque" id="ficha">
+    <div class="wrap">
+      <h2>Ficha técnica</h2>
+      <p class="intro">GL y GLX lado a lado. Toque cada grupo para abrirlo.</p>
+      <div id="fichaGrupos"></div>
+    </div>
+  </section>
+
+  <!-- Cuota -->
+  <section class="bloque humo" id="cuota">
+    <div class="wrap">
+      <h2>¿Cuánto me queda la cuota?</h2>
+      <p class="intro">Mueva los valores y vea una cuota aproximada. La tasa es un ejemplo editable; la tasa real la define el banco según su perfil.</p>
+      <div class="sim">
+        <div>
+          <div class="campo">
+            <label for="sPrecio">Precio del carro <output id="oPrecio"></output></label>
+            <input type="range" id="sPrecio" min="65990000" max="77990000" step="1000000" value="65990000">
+          </div>
+          <div class="campo">
+            <label for="sIni">Cuota inicial <output id="oIni"></output></label>
+            <input type="range" id="sIni" min="0" max="70" step="5" value="30">
+          </div>
+          <div class="campo">
+            <label>Plazo en meses</label>
+            <div class="plazos" id="plazos" role="group" aria-label="Plazo en meses"></div>
+          </div>
+          <div class="campo">
+            <label for="sTasa">Tasa mes vencido (%)</label>
+            <div class="tasa"><input type="number" id="sTasa" min="0" max="5" step="0.01" value="1.50" inputmode="decimal"><span class="nota" style="margin:0">Valor de ejemplo</span></div>
+          </div>
+        </div>
+        <div class="resultado" aria-live="polite">
+          <small>Cuota mensual aproximada</small>
+          <div class="cuota" id="rCuota">$0</div>
+          <dl>
+            <dt>Cuota inicial</dt><dd id="rIni"></dd>
+            <dt>Valor a financiar</dt><dd id="rFin"></dd>
+            <dt>Plazo</dt><dd id="rPlazo"></dd>
+            <dt>Total pagado en cuotas</dt><dd id="rTotal"></dd>
+          </dl>
+          <a class="btn btn-rojo" id="simWa" href="#" target="_blank" rel="noopener">Enviar esta simulación al asesor</a>
+          <p class="nota">Cálculo de referencia con cuota fija. No incluye seguros, SOAT, matrícula ni gastos del crédito.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prueba de manejo -->
+  <section class="bloque" id="prueba">
+    <div class="wrap">
+      <h2>Agende su prueba de manejo</h2>
+      <p class="intro">Llene estos datos y se abre WhatsApp con el mensaje listo para enviar al asesor.</p>
+      <form class="form" id="formPrueba" novalidate>
+        <div><label for="fNombre">Nombre</label><input id="fNombre" autocomplete="name" required></div>
+        <div><label for="fCiudad">Ciudad o municipio</label><input id="fCiudad" autocomplete="address-level2" required></div>
+        <div><label for="fVersion">Versión</label>
+          <select id="fVersion"><option>GL</option><option>GLX</option><option>Aún no sé</option></select></div>
+        <div><label for="fCaja">Transmisión</label>
+          <select id="fCaja"><option>Mecánica</option><option>Automática CVT</option><option>Aún no sé</option></select></div>
+        <div class="ancho"><label for="fDia">¿Qué día le queda bien?</label><input id="fDia" type="date"></div>
+        <label class="priv ancho"><input type="checkbox" id="fAcepto"> <span>Autorizo que el asesor use mi nombre y ciudad solo para responder esta solicitud (Ley 1581 de 2012). Esta página no guarda mis datos: el mensaje sale directo desde mi WhatsApp.</span></label>
+        <p class="error ancho" id="fError" role="alert"></p>
+        <div class="ancho"><button class="btn btn-rojo" type="submit">Enviar por WhatsApp</button></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Precios de referencia entre $65.990.000 y $77.990.000 según versión y transmisión; pueden cambiar sin previo aviso. Confirme precio, colores y disponibilidad con el asesor.</p>
+    <p>Datos tomados de la ficha técnica oficial del Suzuki Swift Híbrido (publicada en noviembre de 2024). Las características definitivas son las de la orden de pedido. Garantía de 3 años o 100.000 km, y 5 años o 100.000 km para el tren de potencia eléctrico del sistema híbrido, lo que primero ocurra. La exención de pico y placa depende de cada ciudad.</p>
+    <p>Videos de terceros alojados en YouTube; sus derechos pertenecen a cada canal. Suzuki y Swift son marcas de sus respectivos titulares.</p>
+    <p class="credito">Desarrollada por Vibras Positivas HM — Derechos de Autor Reservados</p>
+  </div>
+</footer>
+
+<nav class="tabbar" aria-label="Navegación">
+  <ul>
+    <li><a href="#inicio" class="activo"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a></li>
+    <li><a href="#versiones"><svg viewBox="0 0 24 24"><path d="M5 16l1.5-5a2 2 0 0 1 1.9-1.4h7.2a2 2 0 0 1 1.9 1.4L19 16"/><rect x="3" y="16" width="18" height="4" rx="1"/><circle cx="7" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>Versiones</a></li>
+    <li><a href="#videos"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg>Videos</a></li>
+    <li><a href="#cuota"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M8 15h2M12 15h2M16 11v4"/></svg>Cuota</a></li>
+    <li><a href="#prueba"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-4-7.5L21 3l-1 4.5A9 9 0 0 1 21 12z"/></svg>Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="instalar" id="instalar" role="dialog" aria-label="Instalar app">
+  <p>Instale el Swift Híbrido en su celular y véalo sin abrir el navegador.</p>
+  <button type="button" id="btnInstalar">Instalar</button>
+  <button type="button" class="x" id="btnCerrarInst" aria-label="Cerrar">✕</button>
+</div>
+
+<script>
+/* ====== CONFIGURACIÓN: cambie aquí el asesor ====== */
+const CONFIG = {
+  whatsapp: '573202592906',          // número sin + ni espacios
+  asesor: 'Suzuki Autos'
+};
+
+const wa = (msg) => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+const pesos = (n) => '$' + Math.round(n).toLocaleString('es-CO');
+document.getElementById('waTop').href = wa('Hola, vi la app del Suzuki Swift Híbrido y quiero más información.');
+
+/* ====== Datos de la ficha técnica ====== */
+const FICHA = [
+  ['Motor', [
+    ['Motor','Z12E DualJet + SHVS','Z12E DualJet + SHVS'],
+    ['Cilindraje','1.197 cc, 3 cilindros','1.197 cc, 3 cilindros'],
+    ['Potencia máxima','80 HP a 5.700 rpm','80 HP a 5.700 rpm'],
+    ['Torque máximo','112 Nm a 4.300 rpm','112 Nm a 4.300 rpm'],
+    ['Válvulas','12, doble VVT','12, doble VVT'],
+    ['Inyección','Multipunto DualJet','Multipunto DualJet'],
+    ['Tracción','Delantera (2WD)','Delantera (2WD)']
+  ]],
+  ['Sistema híbrido', [
+    ['Tipo','En paralelo con auto-recarga','En paralelo con auto-recarga'],
+    ['Torque eléctrico','60 Nm','60 Nm'],
+    ['Batería','Iones de litio','Iones de litio'],
+    ['Stop & Start',true,true]
+  ]],
+  ['Transmisión', [
+    ['Mecánica','5 velocidades','5 velocidades'],
+    ['Automática','CVT','CVT con paletas en el volante'],
+    ['Modo manual en CVT',false,'7 velocidades predeterminadas']
+  ]],
+  ['Dimensiones y peso', [
+    ['Largo x ancho x alto','3.860 x 1.735 x 1.520 mm','3.860 x 1.735 x 1.520 mm'],
+    ['Distancia entre ejes','2.450 mm','2.450 mm'],
+    ['Trocha delantera / trasera','1.525 / 1.530 mm','1.515 / 1.520 mm'],
+    ['Peso en vacío','928 kg (MT) / 950 kg (CVT)','934 kg (MT) / 960 kg (CVT)'],
+    ['Peso bruto','1.365 kg','1.390 kg'],
+    ['Tanque','9,7 galones','9,7 galones'],
+    ['Baúl','265 L (589 L abatido)','265 L (589 L abatido)'],
+    ['Pasajeros','5','5']
+  ]],
+  ['Llantas, frenos y suspensión', [
+    ['Llantas','165/80 R14','185/65 R15'],
+    ['Rines','Acero con embellecedor','Aleación bicolor'],
+    ['Frenos','Discos ventilados / tambor','Discos ventilados / tambor'],
+    ['Dirección','Asistida eléctricamente','Asistida eléctricamente'],
+    ['Suspensión','McPherson / eje de torsión','McPherson / eje de torsión'],
+    ['Repuesto','De uso temporal','De uso temporal']
+  ]],
+  ['Equipamiento', [
+    ['Aire acondicionado','Control digital','Climatización automática'],
+    ['Pantalla multimedia','7"','9"'],
+    ['Android Auto y CarPlay inalámbricos',true,true],
+    ['Cámara de reversa',true,true],
+    ['Encendido con botón (Push Start)',false,true],
+    ['Apertura manos libres',false,true],
+    ['Limpiabrisas trasero',false,true],
+    ['Exploradoras',false,true],
+    ['Luz de día (DRL)',false,true],
+    ['Espejos con plegado automático',false,true],
+    ['Tweeters delanteros',false,true],
+    ['Volante','Uretano','Cuero sintético'],
+    ['Vidrios eléctricos','4, conductor one touch','4, conductor one touch']
+  ]]
+];
+
+const SEGURIDAD = [
+  ['Frenado autónomo de emergencia',true,true],
+  ['Alerta de colisión frontal',true,true],
+  ['Asistente de permanencia en carril',true,true],
+  ['Alerta de cambio de carril',true,true],
+  ['Control crucero adaptativo',true,true],
+  ['6 airbags (frontales, laterales y de cortina)',true,true],
+  ['Control de estabilidad (ESP) y ABS con EBD',true,true],
+  ['Asistente de arranque en pendiente',true,true],
+  ['Sensores de parqueo traseros',true,true],
+  ['ISOFIX y Top-Tether (2 puestos)',true,true],
+  ['Monitor de punto ciego',false,true],
+  ['Alerta de tráfico cruzado trasero',false,true],
+  ['Asistente de luces altas',false,true],
+  ['Luces diurnas LED en farolas',false,true]
+];
+
+const VERSIONES = {
+  GL: {
+    sub:'La puerta de entrada al híbrido, con toda la seguridad activa.',
+    lista:['Frenado autónomo de emergencia','Control crucero adaptativo','Asistente de permanencia en carril','6 airbags y control de estabilidad','Pantalla de 7" con Android Auto y CarPlay inalámbricos','Cámara y sensores de reversa','Rines de acero 14"','Caja mecánica de 5 o automática CVT'],
+    extra:null
+  },
+  GLX: {
+    sub:'Todo lo de la GL, más tecnología y confort.',
+    lista:['Pantalla de 9"','Monitor de punto ciego','Alerta de tráfico cruzado trasero','Asistente de luces altas','Encendido con botón y apertura manos libres','Climatización automática','Rines de aleación bicolor 15"','CVT con paletas en el volante'],
+    extra:null
+  }
+};
+VERSIONES.GL.extra = '<h4>¿Qué suma la GLX?</h4>Pantalla de 9", punto ciego, tráfico cruzado, luces altas automáticas, push start, rines de aleación 15" y paletas en el volante.';
+VERSIONES.GLX.extra = '<h4>Para quien maneja en carretera</h4>El monitor de punto ciego y la alerta de tráfico cruzado ayudan en adelantamientos y al salir de reversa en parqueaderos.';
+
+/* Versiones */
+function pintarVersion(v){
+  document.querySelectorAll('.selector button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.v===v));
+  const d = VERSIONES[v];
+  document.getElementById('vNombre').textContent = 'Swift Híbrido ' + v;
+  document.getElementById('vSub').textContent = d.sub;
+  document.getElementById('vLista').innerHTML = d.lista.map(x=>`<li>${x}</li>`).join('');
+  document.getElementById('vExtra').innerHTML = d.extra;
+  document.getElementById('vWa').href = wa(`Hola, me interesa el Suzuki Swift Híbrido ${v}. ¿Qué precio y colores tienen disponibles?`);
+}
+document.querySelectorAll('.selector button').forEach(b=>b.addEventListener('click',()=>pintarVersion(b.dataset.v)));
+pintarVersion('GL');
+
+/* Tablas */
+const celda = (x) => x===true ? '<td class="c si" aria-label="Sí">Sí</td>' : x===false ? '<td class="c no" aria-label="No">—</td>' : `<td>${x}</td>`;
+document.getElementById('tablaSeg').innerHTML =
+  '<thead><tr><th>Sistema</th><th class="c">GL</th><th class="c">GLX</th></tr></thead><tbody>' +
+  SEGURIDAD.map(r=>`<tr><td>${r[0]}</td>${celda(r[1])}${celda(r[2])}</tr>`).join('') + '</tbody>';
+
+document.getElementById('fichaGrupos').innerHTML = FICHA.map(([g,filas],i)=>`
+  <details ${i===0?'open':''}><summary>${g}</summary>
+  <div class="tabla-wrap"><table><thead><tr><th></th><th>GL</th><th>GLX</th></tr></thead><tbody>
+  ${filas.map(r=>{
+    const c = (x)=> x===true?'<td class="si">Sí</td>':x===false?'<td class="no">No</td>':`<td>${x}</td>`;
+    return `<tr><th scope="row" style="font-weight:600">${r[0]}</th>${c(r[1])}${c(r[2])}</tr>`;
+  }).join('')}
+  </tbody></table></div></details>`).join('');
+
+/* Videos (YouTube, carga liviana) */
+const VIDEOS = [
+  {id:'QYGZnlFN2xk', t:'Prueba a fondo del Swift Híbrido', c:'El Carro Colombiano'},
+  {id:'xTudPM_xPMs', t:'Así es la nueva generación (4K)', c:'Autos de Primera'},
+  {id:'0vms1eFDPOY', t:'Swift Hybrid GLX: reseña', c:'NetU Autos'},
+  {id:'9ogzVVbe1fA', t:'Nuevo Swift Híbrido: diseño y equipamiento', c:'YouTube'}
+];
+document.getElementById('listaVideos').innerHTML = VIDEOS.map(v=>`
+  <div class="vid">
+    <button class="lite" data-id="${v.id}" style="background-image:url('https://i.ytimg.com/vi/${v.id}/hqdefault.jpg')" aria-label="Reproducir: ${v.t}"></button>
+    <div class="pie"><b>${v.t}</b><span>${v.c}</span></div>
+  </div>`).join('');
+document.querySelectorAll('.lite').forEach(b=>b.addEventListener('click',()=>{
+  const f=document.createElement('iframe');
+  f.src=`https://www.youtube-nocookie.com/embed/${b.dataset.id}?autoplay=1&rel=0&playsinline=1`;
+  f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';
+  f.allowFullscreen=true; f.title=b.getAttribute('aria-label');
+  b.replaceWith(f);
+}));
+
+/* Simulador */
+const PLAZOS=[24,36,48,60,72]; let plazo=60;
+const cont=document.getElementById('plazos');
+cont.innerHTML=PLAZOS.map(p=>`<button type="button" data-p="${p}" aria-pressed="${p===plazo}">${p}</button>`).join('');
+cont.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;plazo=+b.dataset.p;cont.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));calc();});
+['sPrecio','sIni','sTasa'].forEach(id=>document.getElementById(id).addEventListener('input',calc));
+function calc(){
+  const P=+sPrecio.value, pct=+sIni.value, i=Math.max(0,(+sTasa.value||0)/100);
+  const ini=P*pct/100, fin=P-ini;
+  const c = fin<=0 ? 0 : (i===0 ? fin/plazo : fin*i/(1-Math.pow(1+i,-plazo)));
+  oPrecio.textContent=pesos(P); oIni.textContent=pct+'%';
+  rCuota.textContent=pesos(c); rIni.textContent=pesos(ini); rFin.textContent=pesos(fin);
+  rPlazo.textContent=plazo+' meses'; rTotal.textContent=pesos(c*plazo);
+  simWa.href=wa(`Hola, simulé un crédito para el Suzuki Swift Híbrido: precio ${pesos(P)}, cuota inicial ${pct}% (${pesos(ini)}), ${plazo} meses, tasa de ejemplo ${(+sTasa.value).toFixed(2)}% M.V. Cuota aproximada ${pesos(c)}. ¿Qué opciones de financiación tienen?`);
+}
+calc();
+
+/* Prueba de manejo */
+const hoy=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Bogota'}));
+fDia.min=hoy.toISOString().slice(0,10);
+formPrueba.addEventListener('submit',e=>{
+  e.preventDefault();
+  const n=fNombre.value.trim(), c=fCiudad.value.trim();
+  if(!n||!c){fError.textContent='Escriba su nombre y su ciudad para enviar la solicitud.';return;}
+  if(!fAcepto.checked){fError.textContent='Marque la autorización de datos para continuar.';return;}
+  fError.textContent='';
+  let dia='';
+  if(fDia.value){const [y,m,d]=fDia.value.split('-');dia=`\nDía preferido: ${d}/${m}/${y}`;}
+  window.open(wa(`Hola ${CONFIG.asesor}, quiero agendar una prueba de manejo del Suzuki Swift Híbrido.\nNombre: ${n}\nCiudad: ${c}\nVersión: ${fVersion.value}\nTransmisión: ${fCaja.value}${dia}`),'_blank');
+});
+
+/* Barra inferior: resaltar sección */
+const enlaces=[...document.querySelectorAll('.tabbar a')];
+const mapa={inicio:0,versiones:1,hibrido:1,seguridad:1,interior:1,videos:2,ficha:2,cuota:3,prueba:4};
+const obs=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){const k=mapa[en.target.id];enlaces.forEach((a,i)=>a.classList.toggle('activo',i===k));}}),{rootMargin:'-45% 0px -50% 0px'});
+['inicio','versiones','hibrido','seguridad','interior','videos','ficha','cuota','prueba'].forEach(id=>{const el=document.getElementById(id);if(el)obs.observe(el);});
+
+/* PWA */
+if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+let promptInst=null;
+addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault(); promptInst=e;
+  let cerrado=false; try{cerrado=localStorage.getItem('swift-inst-cerrado')==='1'}catch(_){}
+  if(!cerrado) setTimeout(()=>instalar.classList.add('ver'),6000);
+});
+btnInstalar.addEventListener('click',async()=>{if(!promptInst)return;instalar.classList.remove('ver');promptInst.prompt();await promptInst.userChoice;promptInst=null;});
+btnCerrarInst.addEventListener('click',()=>{instalar.classList.remove('ver');try{localStorage.setItem('swift-inst-cerrado','1')}catch(_){}});
+addEventListener('appinstalled',()=>instalar.classList.remove('ver'));
+</script>
+</body>
+</html>
